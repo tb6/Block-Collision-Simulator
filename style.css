@@ -1,0 +1,221 @@
+
+body {
+    background-color: #000;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.developer {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    color: #90caf9;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.container {
+    background-color: #0a0a0a;
+    border-radius: 12px;
+    padding: 25px;
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 30px;
+    border: 1px solid #222;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    color: #64b5f6;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.pi-info {
+    background-color: #111;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.pi-info h3 {
+    margin-top: 0;
+    color: #90caf9;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.pi-info p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-size: 14px;
+    color: #bbdefb;
+}
+
+input, select {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: #e0e0e0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    width: 120px;
+}
+
+button {
+    background: linear-gradient(135deg, #1e88e5, #1565c0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    align-self: flex-end;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #42a5f5, #1e88e5);
+    transform: translateY(-2px);
+}
+
+button.stop {
+    background: linear-gradient(135deg, #d32f2f, #b71c1c);
+}
+
+button.stop:hover {
+    background: linear-gradient(135deg, #f44336, #d32f2f);
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #111;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stat-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #64b5f6;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #bbdefb;
+}
+
+#canvas {
+    background-color: #000;
+    border-radius: 8px;
+    border: 1px solid #222;
+    display: block;
+    margin: 0 auto;
+}
+
+.pi-display {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #90caf9;
+    font-family: 'Courier New', monospace;
+}
+
+.pi-digits {
+    font-size: 32px;
+    font-weight: bold;
+    color: #64b5f6;
+    letter-spacing: 3px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.explanation-container {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 30px;
+}
+
+.explanation {
+    background-color: #0a0a0a;
+    border-radius: 12px;
+    padding: 25px;
+    border: 1px solid #222;
+}
+
+.explanation h3 {
+    color: #64b5f6;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.explanation p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.explanation .scientific-term {
+    color: #64b5f6;
+    font-weight: 500;
+}
+
+.explanation .highlight {
+    background-color: rgba(25, 118, 210, 0.2);
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.explanation .formula {
+    background-color: #111;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    margin: 15px 0;
+    font-size: 16px;
+}
